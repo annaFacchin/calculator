@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<head>
+
+    <!-- Meta -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <script src="calculator.js"></script>
+
+    </head>
+    <body>
+<h3>Calculator</h3>
+
+<div>
+    <button id="7" onclick="setValue('7')">7</button>
+    <button id="8" onclick="setValue('8')">8</button>
+    <button id="9" onclick="setValue('9')">9</button>
+    <br>
+    <button id="4" onclick="setValue('4')">4</button>
+    <button id="5" onclick="setValue('5')">5</button>
+    <button id="6" onclick="setValue('6')">6</button>
+    <br>
+    <button id="1" onclick="setValue('1')">1</button>
+    <button id="2" onclick="setValue('2')">2</button>
+    <button id="3" onclick="setValue('3')">3</button>
+    <br>
+    <button id="0" onclick="setValue('0')">0</button>
+    <br><br>
+     <button id="+" onclick="setOperator('+')">+</button>
+     <button id="-" onclick="setOperator('-')">-</button>
+    <button id="x" onclick="setOperator('*')">x</button>
+    <button id="/" onclick="setOperator('/')">/</button>
+    <br><br>
+    <button id="equals" onclick="equals()">=</button>
+    <br>
+    <br>
+   <div>Result: </div> 
+   <br>
+   <div id="first"></div><div id="operator"></div><div id="second"></div>=<div id="result"></div>
+</div>
+    </body>
+    </html>
